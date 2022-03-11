@@ -20,6 +20,11 @@ Loss
 Accuracy
 ![image](https://user-images.githubusercontent.com/61599898/157932996-c66248d3-56e7-4229-9efb-01c452546c28.png)
 ### epoch = 16
-
+Loss
+![image](https://user-images.githubusercontent.com/61599898/157934288-7e54a877-8347-4626-afa1-836fc0069b87.png)
+Accuracy
+![image](https://user-images.githubusercontent.com/61599898/157934374-ff6251da-9720-4388-bff7-61d4a6d6f82c.png)
 
 ## 心得及討論(ex: 探討實驗結果)
+
+

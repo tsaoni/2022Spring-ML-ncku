@@ -3,7 +3,7 @@
 ## Build Model 的截圖
 ![image](https://user-images.githubusercontent.com/61599898/157932156-b30e3212-d963-4a57-a7f3-160b33fc1c14.png)
 
-## 完成實驗表格(4個表格， 2 4 8 16Epoch: 的Accuracy， Epoch: 20的loss )
+## 完成實驗表格
 ### epoch = 2
 Loss
 ![image](https://user-images.githubusercontent.com/61599898/157932457-aa027d6d-4a89-497a-8d50-a3046a3cceb6.png)
@@ -27,4 +27,14 @@ Accuracy
 
 ## 心得及討論(ex: 探討實驗結果)
 
+### 心得
+1. 通常loss越低accuracy越高。
+2. 每一個row，隨著neuron數(X)增加，loss先減後增，accuracy先增後減。
+3. 每一個column，隨著hidden layer數(N)增加，loss上升，accuracy下降。
+4. 在X = 1024，N = 8, 16的地方，loss會大爆炸。
 
+### 討論
+
+1. training set跟testing set上感覺都可以分別算loss跟accuracy，但是在本次作業上助教的範本是算training set上的loss跟testing set上的accuracy，不知道這是不是大家的習慣?
+2. MLP的模型好像越deep越train不起來?
+3. 不知道如果加上activation function後，可否解決loss大爆炸的問題?

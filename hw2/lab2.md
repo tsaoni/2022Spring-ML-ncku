@@ -16,7 +16,7 @@
 ![image](https://user-images.githubusercontent.com/61599898/162203631-37db0b12-8e92-416f-a3e0-010fc4776457.png)
 
 ### Model Class
-1. 用5層convolution layer(未加batch normalization)
+用5層convolution layer(未加batch normalization)  
 #### class 截圖:  
  --  
 #### train/valid
@@ -29,7 +29,7 @@
 ##### output
  --
 ### pretrained model finetuned
-2. 在每層activation function後面，加上batch normalization
+在每層activation function後面，加上batch normalization  
 #### class 截圖
 ![image](https://user-images.githubusercontent.com/61599898/162403801-ac34a515-ef0a-4e24-a103-6897ae85fe4d.png)
 #### train/valid

@@ -25,7 +25,7 @@
 ![acc2](https://user-images.githubusercontent.com/61599898/162409165-5a340a94-2fc6-43de-8c7f-e36741ea10fa.png)
 #### testing
 ##### output
- --
+ --  
 在每層activation function後面，加上batch normalization  
 #### class 截圖
 ![image](https://user-images.githubusercontent.com/61599898/162403801-ac34a515-ef0a-4e24-a103-6897ae85fe4d.png)

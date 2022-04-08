@@ -28,20 +28,20 @@
 #### testing
 ##### output
  --
-### pretrained model finetuned
 在每層activation function後面，加上batch normalization  
 #### class 截圖
 ![image](https://user-images.githubusercontent.com/61599898/162403801-ac34a515-ef0a-4e24-a103-6897ae85fe4d.png)
 #### train/valid
 (藍色代表train，橘色代表valid)
 * loss
-![image](https://user-images.githubusercontent.com/61599898/162402746-0d99abfc-8de7-4170-9dde-b61ea2b1fba1.png)
+![image](https://user-images.githubusercontent.com/61599898/162450863-d16d48bc-83ad-47cc-817b-e938ecc3ea3e.png)
 * accuracy
-![image](https://user-images.githubusercontent.com/61599898/162402961-2fddfacb-6c8a-49c6-84f9-df049c1816e2.png)
+![image](https://user-images.githubusercontent.com/61599898/162450891-71d2eec1-2e94-45b2-9ae9-fac8aeab6186.png)
 #### test
 ##### output
 F74072277_test_model.csv  
 
+### pretrained model finetuned
 #### 使用的模型
 Resnet18
 #### train/valid
@@ -55,14 +55,17 @@ Resnet18
 F74072277_test_pretrain.csv  
 
 ## 結果與討論
-
+pretrained model一train就accuracy 8X起跳太厲害啦
+model class手寫板本的，epoch = 10時都還停留在4X...
 ### 模型比較
-
+有加batch normalization真的有比沒加accuracy高
 ### 實作中遇到的困難與克服
 #### cuda out of memory
 解決方法: 1. 把batch size設小 2. 把image resize小一點(實驗是1000x1000 -> 300x300)  
 #### CUDA error: device-side assert triggered resnet
 網路上查到都是classification label的問題，但我的情況感覺不是...  
 (到現在還未找到bug，不知道是不是不同筆記本切換GPU時出的問題..)  
-
-
+#### training time out of deadline(X)
+嗚嗚修課太多沒幾天可以finetune model...
+希望可以再多試試dropout(data argumentation)，調整optimizer
+調高epoch數應該可以在讓accuracy升高

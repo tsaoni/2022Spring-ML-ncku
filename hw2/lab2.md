@@ -16,15 +16,9 @@
 ![image](https://user-images.githubusercontent.com/61599898/162203631-37db0b12-8e92-416f-a3e0-010fc4776457.png)
 
 ### Model Class
-
-截圖
-train validation
-loss accuracy graph/表格
-
-### pretrained model finetuned
 1. 用5層convolution layer(未加batch normalization)
 #### class 截圖
- ---
+ --
 #### train/valid
 (藍色代表train，橘色代表valid)
 ##### loss
@@ -33,8 +27,8 @@ loss accuracy graph/表格
 ![acc2](https://user-images.githubusercontent.com/61599898/162409165-5a340a94-2fc6-43de-8c7f-e36741ea10fa.png)
 #### testing
 ##### output
- ---
-
+ --
+### pretrained model finetuned
 2. 在每層activation function後面，加上batch normalization
 #### class 截圖
 ![image](https://user-images.githubusercontent.com/61599898/162403801-ac34a515-ef0a-4e24-a103-6897ae85fe4d.png)

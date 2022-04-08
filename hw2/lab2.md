@@ -17,13 +17,13 @@
 
 ### Model Class
 1. 用5層convolution layer(未加batch normalization)
-#### class 截圖
- --
+#### class 截圖:  
+ --  
 #### train/valid
 (藍色代表train，橘色代表valid)
-##### loss
+* loss
 ![loss2](https://user-images.githubusercontent.com/61599898/162409215-bd159b2e-b4cc-401b-94f9-4d5da4ab6e95.png)
-##### accuracy
+* accuracy
 ![acc2](https://user-images.githubusercontent.com/61599898/162409165-5a340a94-2fc6-43de-8c7f-e36741ea10fa.png)
 #### testing
 ##### output
@@ -34,9 +34,9 @@
 ![image](https://user-images.githubusercontent.com/61599898/162403801-ac34a515-ef0a-4e24-a103-6897ae85fe4d.png)
 #### train/valid
 (藍色代表train，橘色代表valid)
-##### loss
+* loss
 ![image](https://user-images.githubusercontent.com/61599898/162402746-0d99abfc-8de7-4170-9dde-b61ea2b1fba1.png)
-##### accuracy
+* accuracy
 ![image](https://user-images.githubusercontent.com/61599898/162402961-2fddfacb-6c8a-49c6-84f9-df049c1816e2.png)
 #### test
 ##### output
@@ -46,9 +46,9 @@ F74072277_test_model.csv
 Resnet18
 #### train/valid
 (藍色代表train，橘色代表valid)
-##### loss
+* loss
 ![image](https://user-images.githubusercontent.com/61599898/162406938-941c3779-9aae-4607-8fec-a550b31014b4.png)
-##### accuracy
+* accuracy
 ![image](https://user-images.githubusercontent.com/61599898/162406988-14e5a756-bbff-495c-9afd-4046976359c5.png)
 #### testing
 ##### output

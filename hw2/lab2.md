@@ -35,6 +35,8 @@
 ![image](https://user-images.githubusercontent.com/61599898/162450863-d16d48bc-83ad-47cc-817b-e938ecc3ea3e.png)
 * accuracy
 ![image](https://user-images.githubusercontent.com/61599898/162450891-71d2eec1-2e94-45b2-9ae9-fac8aeab6186.png)
+* table
+![image](https://user-images.githubusercontent.com/61599898/162473823-26ab09f5-5c06-4821-b63e-9de346d3c6a3.png)
 #### test
 ##### output
 F74072277_test_model.csv  
@@ -48,6 +50,8 @@ Resnet18
 ![image](https://user-images.githubusercontent.com/61599898/162406938-941c3779-9aae-4607-8fec-a550b31014b4.png)
 * accuracy
 ![image](https://user-images.githubusercontent.com/61599898/162406988-14e5a756-bbff-495c-9afd-4046976359c5.png)
+* table
+![image](https://user-images.githubusercontent.com/61599898/162474647-dc57436b-fd3b-4437-ae55-ff64d9a4d97b.png)
 #### testing
 ##### output
 F74072277_test_pretrain.csv  
